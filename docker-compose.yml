@@ -7,4 +7,5 @@ services:
       - ./sql_oracle:/sql_oracle
     ports:
         - 1521:1521
-# docker run --name oracle11g -d -p 1521:1521 jaspeen/oracle-xe-11g
+
+# docker run --name oracle11g -d -p 1521:1521 ppojin/oracle-xe-11g

@@ -13,6 +13,9 @@
               - 1521:1521
     ```
 
+## oracle jdbc
+classpath = `oracle.jdbc.OracleDriver`
+
 ## connect docker container from oracle
 ```
 $ docker exec -it oracle11g sqlplus
